@@ -1,0 +1,21 @@
+Git Notes
+
+1) cd directory/path
+Navigate to project folder where you will build project
+
+2) git init
+This starts a git repo in the current directory specified in our path
+
+3) git status
+Checks the status of a repository at any given time. If there are untracked files in the folder, git will tell you so when you run the status
+
+4) git add <filename with extension [file.ext]> or git add '*.txt'
+This tells Git to start tracking changes to that file. The wildcard is used to add all txt files
+
+(if we run git status, after we have made unsaved changes to the file, it will inform us of changes that we need to commit). This is known as the STAGING AREA - which means they are not in our repo yet. A commit in git is performed in two steps: staging and actual commit. As long as changes are still in the staging area, we can still edit them, etc.)
+
+5) git commit -m "Note"
+Commits changes with a note used to explain changes. Dont have to specify file path in a commit, we have already done that in staging
+
+6) git log
+Allows us to search a few commits
